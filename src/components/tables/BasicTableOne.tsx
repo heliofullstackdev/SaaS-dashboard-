@@ -32,7 +32,7 @@ const tableData: Order[] = [
     user: {
       image: "/images/user/user-17.jpg",
       name: "Lindsey Curtis",
-      role: "Web Designer",
+      role: "Client",
     },
     projectName: "Agency Website",
     team: {
@@ -50,7 +50,7 @@ const tableData: Order[] = [
     user: {
       image: "/images/user/user-18.jpg",
       name: "Kaiya George",
-      role: "Project Manager",
+      role: "Client",
     },
     projectName: "Technology",
     team: {
@@ -64,7 +64,7 @@ const tableData: Order[] = [
     user: {
       image: "/images/user/user-17.jpg",
       name: "Zain Geidt",
-      role: "Content Writing",
+      role: "Client",
     },
     projectName: "Blog Writing",
     team: {
@@ -78,7 +78,7 @@ const tableData: Order[] = [
     user: {
       image: "/images/user/user-20.jpg",
       name: "Abram Schleifer",
-      role: "Digital Marketer",
+      role: "Free",
     },
     projectName: "Social Media",
     team: {
@@ -96,7 +96,7 @@ const tableData: Order[] = [
     user: {
       image: "/images/user/user-21.jpg",
       name: "Carla George",
-      role: "Front-end Developer",
+      role: "Middle",
     },
     projectName: "Website",
     team: {
@@ -126,17 +126,17 @@ export default function BasicTableOne() {
                 >
                   User
                 </TableCell>
+                {/* <TableCell
+                  isHeader
+                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
+                >
+                  Products
+                </TableCell> */}
                 <TableCell
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  Project Name
-                </TableCell>
-                <TableCell
-                  isHeader
-                  className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
-                >
-                  Team
+                  Followers
                 </TableCell>
                 <TableCell
                   isHeader
@@ -148,7 +148,7 @@ export default function BasicTableOne() {
                   isHeader
                   className="px-5 py-3 font-medium text-gray-500 text-start text-theme-xs dark:text-gray-400"
                 >
-                  Budget
+                  Payed
                 </TableCell>
               </TableRow>
             </TableHeader>
@@ -177,9 +177,9 @@ export default function BasicTableOne() {
                       </div>
                     </div>
                   </TableCell>
-                  <TableCell className="px-4 py-3 text-gray-500 text-start text-theme-sm dark:text-gray-400">
+                  {/* <TableCell className="px-4 py-3 text-gray-500 text-start text-theme-sm dark:text-gray-400">
                     {order.projectName}
-                  </TableCell>
+                  </TableCell> */}
                   <TableCell className="px-4 py-3 text-gray-500 text-start text-theme-sm dark:text-gray-400">
                     <div className="flex -space-x-2">
                       {order.team.images.map((teamImage, index) => (
