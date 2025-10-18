@@ -31,8 +31,8 @@ const navItems: NavItem[] = [
     name: "Dashboard",
     subItems: [
       { name: "Ecommerce", path: "/", pro: false }, 
-      { name: "Line Chart", path: "/line-chart", pro: false },
-      { name: "Bar Chart", path: "/bar-chart", pro: false },
+      { name: "Statistics", path: "/line-chart", pro: false },
+      { name: "Monthly Sales", path: "/bar-chart", pro: false },
     ],
   },
   {
@@ -71,8 +71,6 @@ const othersItems: NavItem[] = [
     icon: <PieChartIcon />,
     name: "Charts",
     subItems: [
-      { name: "Line Chart", path: "/line-chart", pro: false },
-      { name: "Bar Chart", path: "/bar-chart", pro: false },
     ],
   },
   // {
